@@ -1,15 +1,19 @@
 # sell
 
-> 饿了吗APP
+> 仿饿了吗APP
 
 ## Build Setup
 
 ``` bash
+# install global dependencies
+npm install json-server -g
+npm install npm-run-all -g
+
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm start
 
 # build for production with minification
 npm run build
